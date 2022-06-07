@@ -1,7 +1,7 @@
 import { createHandlers } from 'next-middle-api';
-import fs from 'fs/promises';
-import { createMultiPartMiddleWare, MultiPartParserResults, UPLOADED_FILES_RESULT_KEY, UploadedFile } from 'next-api-image-middleware';
-import sharp from 'sharp';
+// import fs from 'fs/promises';
+// import { createMultiPartMiddleWare, MultiPartParserResults, UPLOADED_FILES_RESULT_KEY, UploadedFile } from 'next-api-image-middleware';
+// import sharp from 'sharp';
 
 
 // // required by next js to not parse files before the middleware reads it
