@@ -1434,13 +1434,6 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-api-image-middleware@../next-api-image-middleware:
-  version "0.0.1"
-  dependencies:
-    busboy "^1.6.0"
-    next-middle-api "^0.0.5"
-    sharp "^0.30.5"
-
 next-middle-api-query-parser@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/next-middle-api-query-parser/-/next-middle-api-query-parser-0.0.4.tgz#2f185bf55e8f13909bd00821d4e91f2a99773849"
@@ -1449,11 +1442,6 @@ next-middle-api-query-parser@^0.0.4:
     luxon "^2.4.0"
     next-middle-api "^0.0.5"
     validator "^13.7.0"
-
-next-middle-api@../next-middle-api/:
-  version "0.0.5"
-  dependencies:
-    next "^12.1.6"
 
 next-middle-api@^0.0.5:
   version "0.0.5"
@@ -1862,20 +1850,6 @@ set-blocking@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
-
-sharp@^0.30.5:
-  version "0.30.5"
-  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.30.5.tgz#81c36fd05624978384ac6bd2744d23f9c82edefd"
-  integrity sha512-0T28KxqY4DzUMLSAp1/IhGVeHpPIQyp1xt7esmuXCAfyi/+6tYMUeRhQok+E/+E52Yk5yFjacXp90cQOkmkl4w==
-  dependencies:
-    color "^4.2.3"
-    detect-libc "^2.0.1"
-    node-addon-api "^5.0.0"
-    prebuild-install "^7.1.0"
-    semver "^7.3.7"
-    simple-get "^4.0.1"
-    tar-fs "^2.1.1"
-    tunnel-agent "^0.6.0"
 
 sharp@^0.30.6:
   version "0.30.6"
